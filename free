@@ -1,0 +1,15 @@
+local hint = Instance.new("Hint")  -- Tạo đối tượng Hint
+hint.Text = "WELCOME!"  -- Nội dung thông báo
+hint.Parent = game.Workspace  -- Đặt Hint vào Workspace
+
+-- Sau một khoảng thời gian, xóa Hint
+wait(5)  -- Đợi 5 giây
+hint:Destroy()  -- Xóa Hint khỏi Workspace
+local hint = Instance.new("Hint")  -- Tạo đối tượng Hint
+hint.Text = "C5 EPLOITER"  -- Nội dung thông báo
+hint.Parent = game.Workspace  -- Đặt Hint vào Workspace
+
+-- Sau một khoảng thời gian, xóa Hint
+wait(5)  -- Đợi 5 giây
+hint:Destroy()  -- Xóa Hint khỏi Workspace
+loadstring(game:HttpGet('https://gist.githubusercontent.com/c5least011/ea2892e65d7f4e89524f40465c7ed22c/raw/9f752b2c305ab90e7895ad570c1f44da4e7c34c3/BloxKid&AllGames'))()
